@@ -9,8 +9,8 @@ To view the code please look at the .ipynb. To run the code please use [Jupyter]
 ### Requirements
 Just need autograd numpy and scipy packages
 
-'''console
+```console
 pip install numpy
 pip install scipy
 pip install autograd
-'''
+```

@@ -14,5 +14,5 @@ class TimeAveragedDist(object):
         """ Calculates the log probability of the time averaged distribution  
         """
         if grad:
-            return -(x-s)/np.exp(self.log_std)
-        return -0.5 * self.log_std - 0.5 * np.sum((x-s)/np.exp(self.log_std),1)
+            return -(x[self.explr_idx]-s)/np.exp(self.log_std)
+        return -0.5 * self.log_std - 0.5 * np.sum((x[:, self.explr_idx]-s)/np.exp(self.log_std),1)

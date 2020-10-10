@@ -7,10 +7,11 @@
 To view the code please look at the .ipynb. To run the code please use [Jupyter](https://jupyter.org/)
 
 ### Requirements
-Just need autograd numpy and scipy packages
+Just need jax numpy 
 
 ```console
-pip install numpy
-pip install scipy
-pip install autograd
+pip3 install jax
+pip3 install numpy
 ```
+
+Open the `kle3.ipynb` file using jupyter lab. The `mylundarlander.py` consists of a simple lunar lander dynamics for use in model-based control. 
